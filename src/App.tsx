@@ -10,7 +10,7 @@ function App() {
   return (
     // O componente ListGroup é chamado com os "itens", "heading" e "função" que eu quiser!
     <div>
-      <ListGroup items={items} heading='Cities' onSelectItem={handleSelectItem} />
+      <ListGroup items={items} heading='Options' onSelectItem={handleSelectItem} />
     </div>
   );
 }
