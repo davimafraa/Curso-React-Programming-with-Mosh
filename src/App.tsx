@@ -1,16 +1,11 @@
-import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
 
 function App() {
-  const items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
-
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  }
-
   return (
-    // O componente ListGroup é chamado com os "itens", "heading" e "função" que eu quiser!
     <div>
-      <ListGroup items={items} heading='Options' onSelectItem={handleSelectItem} />
+      <Alert>
+        Cuidado, temos um <p>ERRO!</p>
+      </Alert>
     </div>
   );
 }
